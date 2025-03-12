@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>Module 35</title>
+    <style>
+        * {
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="w-11/12 mx-auto flex justify-between py-5 border-b-2 border-[#17171720] items-center">
+            <div class="logo">
+                <img class="w-[120px]" src="./assets/Logo.png" alt="">
+            </div>
+            <div class="sort">
+                <button class="btn">Sort by View</button>
+            </div>
+            <div class="blog">
+                <button class="btn bg-[#FF1F3D] text-white">Blog</button>
+            </div>
+        </nav>
+    </header>
+    <nav class="w-11/12 mx-auto flex justify-center gap-5 py-5">
+        <button class="btn btn-sm">All</button>
+        <button class="btn btn-sm">Music</button>
+        <button class="btn btn-sm">Comedy</button>
+    </nav>
+    <section class="w-11/12 mx-auto grid grid-cols-4 gap-5">
+        <div class="card bg-base-100 shadow-sm">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Card Title</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+        </div>
+        <div class="card bg-base-100 shadow-sm">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Card Title</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+        </div>
+        <div class="card bg-base-100 shadow-sm">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Card Title</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+        </div>
+        <div class="card bg-base-100 shadow-sm">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Card Title</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
