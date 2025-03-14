@@ -1,7 +1,9 @@
 :root {
     --primary-color: #FF1F3D;
 }
-
+.custom-active:active {
+    background-color: var(--primary-color);
+}
 body {
     font-family: "Poppins", sans-serif;
 }
