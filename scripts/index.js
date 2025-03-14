@@ -16,7 +16,7 @@ function displayCategories(categories) {
         //create element
         const navDiv = document.createElement('div')
         navDiv.innerHTML = `
-        <button class="btn btn-sm">${cat.category}</button>
+        <button class="btn btn-sm hover:bg-[var(--primary-color)]">${cat.category}</button>
         `
         //append the element
         cardNav.appendChild(navDiv)
